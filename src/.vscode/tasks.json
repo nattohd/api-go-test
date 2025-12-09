@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "command": "go",
+      "args": [
+        "build",
+        "-o",
+        "${workspaceFolder}/main",
+        "${workspaceFolder}/main.go"
+      ],
+      "type": "shell",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
